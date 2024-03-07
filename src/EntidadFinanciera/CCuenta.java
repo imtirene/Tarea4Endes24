@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package tarea4endes24;
+package EntidadFinanciera;
 
 
 public class CCuenta {
