@@ -15,6 +15,8 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
+// Constante para el mensaje de error
+    private static final String ERRORCANTIDADNEGATIVA = "No se puede ingresar una cantidad negativa";
 
     public CCuenta()
     {
