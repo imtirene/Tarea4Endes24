@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package EntidadFinanciera;
+package tarea4endes24;
 
 
 public class CCuenta {
@@ -16,10 +16,6 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
-   // Atributo constante para el mensaje de error
-    private static final String ERROR_CANTIDAD_NEGATIVA = "No se puede ingresar una cantidad negativa";
-
-   
     public CCuenta()
     {
     }
@@ -30,45 +26,7 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
-    
-        public double obtenerSaldo() {
-        return saldo;
-    }
-
-    public void establecerSaldo(double nuevoSaldo) {
-        saldo = nuevoSaldo;
-    }
-
-    public String obtenerNombre() {
-        return nombre;
-    }
-
-    public void establecerNombre(String nuevoNombre) {
-        nombre = nuevoNombre;
-    }
-
-    public String obtenerCuenta() {
-        return cuenta;
-    }
-
-    public void establecerCuenta(String nuevaCuenta) {
-        cuenta = nuevaCuenta;
-    }
-
-    public double obtenerTipoInteres() {
-        return tipoInterés;
-    }
-
-    public void establecerTipoInteres(double nuevoTipoInteres) {
-        tipoInterés = nuevoTipoInteres;
-    }
-
-    
-    
-    
-    
-    
-    
+    //voy a hacer un commit
     public double estado(){
         return this.saldo;
     }
