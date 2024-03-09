@@ -12,12 +12,12 @@ public class Main {
 
     public static void main(String[] args) {
         try{
-        CCuenta objectoCuenta;
+        CCuenta objetoCuenta;
         double saldoActual;
         
 
-        objectoCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
-        saldoActual = objectoCuenta.estado();
+        objetoCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        saldoActual = objetoCuenta.estado();
         System.out.println("El saldo actual es"+ saldoActual );
         } catch (Exception e) {
             // Manejo de la excepción
